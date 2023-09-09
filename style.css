@@ -1,0 +1,26 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color:blue;
+}
+h1 { 
+  text-align:center;
+
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+ 
+}
+#editor, #preview {
+  width:50%;
+  height:100vh;
+  font-size:1rem;
+  text-align:center;
+  
+}
